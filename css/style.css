@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#FFFFFF;
+    --body-color:#EEEEEE;
+    --color-blue:#1da1f2d9;
+    --color-gry:#9DA0A0;
+    --icon-colorL:#F87F02;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+    border-radius: 10px;
+}
+body{
+    background-color: var(--body-color);
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    height: 1000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    direction: rtl;
+    background-color: #ccc;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+    font-family: 'Tajawal', sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    padding: 0 25px;
+}
+a{
+    text-decoration: none;
+}
+svg{
+    font-size: 14px;
+}
+.navbar{
+    position: relative;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+}
+.main-menu{
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 0
+    ;
+    box-shadow: inset -30px -13px 28px -21px #0000001a;
+    overflow: scroll;
+    height: 100vh;
+}
+.main-menu ul li{
+    padding: 5px 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.main-menu ul li a{
+    padding: 5px;
+    font-size: 14px;
+    color: var(--color-gry);
+}
+.main-menu ul li:hover{
+    background: #64b5f633;
+}
+.main-menu ul h5{
+    color:var(--color-blue) ;
+}
